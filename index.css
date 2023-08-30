@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+}
+
+.Header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  height: 60px;
+  background-color: rgb(37, 37, 37);
+}
+
+.Header button {
+  cursor: pointer;
+  height: 30px;
+  border: none;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  margin: 5px 10px 5px 10px;
+}
+
+.Header button:hover {
+  transition: 0.2s;
+  font-size: 42px;
+  color: rgb(0, 102, 255);
+}
+
+.theInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.theInfo .Midle {
+  width: 800px;
+  margin: 10px 10px 0 10px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgb(37, 37, 37);
+}
+
+.Midle #story {
+  display: flex;
+}
+
+#story div {
+  width: 180px;
+  height: 280px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgb(71, 71, 71);
+}
+
+.Midle #publishing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#publishing div {
+  width: 760px;
+  height: 760px;
+  border-radius: 15px;
+  margin: 10px 5px 20px 5px;
+  background-color: rgb(71, 71, 71);
+}
+
+.theInfo .side {
+  width: 253px;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgb(37, 37, 37);
+}
+
+#leftSide div {
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 7px;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+#leftSide div:hover {
+  color: rgb(0, 102, 255);
+  transition: 0.2s;
+  text-align: center;
+  cursor: pointer;
+  font-size: 28px;
+  padding: 5px;
+  margin-bottom: 7px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(78, 78, 78);
+  border-radius: 15px;
+}
+
+#leftSide input {
+  text-align: center;
+  width: 222px;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 15px;
+  background-color: rgb(37, 37, 37);
+}
+
+#leftSide input:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(78, 78, 78);
+  border-radius: 15px;
+}
+
+#rightSide .contact {
+  cursor: pointer;
+  margin-top: 10px;
+  padding-top: 3px;
+  display: flex;
+  width: 222px;
+  height: 45px;
+  border-radius: 15px;
+}
+
+#rightSide .contact:hover {
+  transition: 0.2s;
+  padding: 2px;
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(78, 78, 78);
+  color: rgb(0, 102, 255);
+}
+
+.contact .photo {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-color: burlywood;
+  border-radius: 100%;
+}
+
+.contact span {
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 18px;
+  vertical-align: bottom;
+}
