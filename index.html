@@ -3,127 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social network</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="index.css" />
+    <title>Social network</title>
   </head>
   <body>
-    <div class="Header">
-      <button id="Home">Home</button>
-      <button id="Products">Products</button>
-      <button id="AboutUs">About us</button>
-      <button id="FAQ">FAQ</button>
-      <button id="Contacts">Contacts</button>
-    </div>
-    <div class="theInfo">
-      <div class="side">
-        <div id="leftSide">
-          <input type="text" placeholder="Search" />
-          <div>News</div>
-          <div>Freands</div>
-          <div>Photos</div>
-          <div>Musics</div>
-          <div>Videos</div>
-          <div>Reels</div>
-          <div>Games</div>
-          <div>Pages</div>
-          <div>Groups</div>
-          <div>Marketplace</div>
-          <div>Ads Manager</div>
-          <div>Messenger</div>
-          <div>Orders</div>
-          <div>Gameplays</div>
-          <div>Saved</div>
-          <div>Archive</div>
-          <div>Memories</div>
-          <div>Events</div>
-          <div>Feeds</div>
-          <div>Fundraisers</div>
-        </div>
-      </div>
-      <div class="Midle">
-        <div id="story">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div id="publishing">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="side">
-        <div id="rightSide">
-          <h2>Contacts</h2>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>James Bond</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Mickel Jordan</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>John Wick</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Jacky Chan</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Cristiano Ronaldo</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Leonel Messi</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Jet Li</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Hayk Marutyan</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Ruben Meschian</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Mkrtich Arzumanyan</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Andranik Ozanyan</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Elon Musk</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Hennry Ford</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Mike Tyson</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>Kobe Bryant</span>
-          </div>
-          <div class="contact">
-            <div class="photo"></div>
-            <span>LeBron James</span>
+    <main>
+      <header>
+        <div id="logo">
+          <a href="index.html"><i class="fa fa-facebook"></i></a>
+          <div class="Search">
+            <label for="Search"><i class="fa fa-search"></i></label>
+            <input type="text" id="Search" placeholder="Search facebook" />
           </div>
         </div>
-      </div>
-    </div>
+        <div id="pages">
+          <ul>
+            <li title="Home">
+              <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+            </li>
+            <li class="noActive" title="Freands">
+              <a href="https://www.gmail.com"><i class="fa fa-user"></i></a>
+            </li>
+            <li class="noActive" title="Video">
+              <a href="https://www.youtube.com"><i class="fa fa-tv"></i></a>
+            </li>
+            <li class="noActive" title="Marketplace">
+              <a href="https://www.email.com"
+                ><i class="fa fa-shopping-basket"></i
+              ></a>
+            </li>
+            <li class="noActive" title="Groups">
+              <a href="https://www.mail.com"><i class="fa fa-group"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div id="menu">
+          <ul>
+            <li title="Menu">
+              <a href="#"><i class="fa fa-gear"></i></a>
+            </li>
+            <li title="Messenger">
+              <a href="#"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li title="Notifications">
+              <a href="#"><i class="fa fa-bell"></i></a>
+            </li>
+            <li title="Account">
+              <a href="#"><i class="fa fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <div id="left">
+          <div id="navigation">
+            <div id="apps">
+              <div><i class="fa fa-newspaper-o" style="color: yellow;"></i>News</div>
+              <div><i class="fa fa-user-plus" style="color: thistle;"></i>Freands</div>
+              <div><i class="fa fa-image" style="color: greenyellow;"></i>Photos</div>
+              <div><i class="fa fa-music" style="color: orangered;"></i>Musics</div>
+              <div><i class="fa fa-video-camera" style="color: darkcyan;"></i>Videos</div>
+              <div><i class="fa fa-diamond" style="color: plum;"></i>Reels</div>
+              <div><i class="fa fa-gamepad" style="color: cyan;"></i>Games</div>
+              <div><i class="fa fa-compass" style="color: royalblue;"></i>Pages</div>
+              <div><i class="fa fa-globe" style="color: green;"></i>Groups</div>
+              <div><i class="fa fa-bank" style="color: yellow;"></i></i>Marketplace</div>
+              <div><i class="fa fa-bullhorn" style="color: peru;"></i>Ads Center</div>
+              <div><i class="fa fa-cloud" style="color: grey;"></i>Cloud</div>
+              <div><i class="fa fa-bookmark" style="color: yellow;"></i>Saved</div>
+              <div><i class="fa fa-database" style="color: coral;"></i>Archive</div>
+              <div><i class="fa fa-history" style="color: chartreuse;"></i>Memories</div>
+              <div><i class="fa fa-trash" style="color: aqua;"></i>Trash</div>
+              <div><i class="fa fa-tag" style="color: tomato;"></i>Tags</div>
+              <div><i class="fa fa-heart" style="color: red;"></i>Fundraisers</div>
+            </div>
+            <div id="shortcuts"></div>
+          </div>
+          <div id="footer">
+            <span
+              >Privacy · Terms · Advertising · Ad Choices · Cookies · More ·
+              Meta © 2023</span
+            >
+          </div>
+        </div>
+        <div id="content"></div>
+        <div id="right"></div>
+      </section>
+      <!-- <div class="theInfo">
+        <div class="side">
+          <div id="leftSide">
+            <input type="text" placeholder="Search" />
+            <div>News</div>
+            <div>Freands</div>
+            <div>Photos</div>
+            <div>Musics</div>
+            <div>Videos</div>
+            <div>Reels</div>
+            <div>Games</div>
+            <div>Pages</div>
+            <div>Groups</div>
+            <div>Marketplace</div>
+            <div>Ads Manager</div>
+            <div>Messenger</div>
+            <div>Orders</div>
+            <div>Gameplays</div>
+            <div>Saved</div>
+            <div>Archive</div>
+            <div>Memories</div>
+            <div>Events</div>
+            <div>Feeds</div>
+            <div>Fundraisers</div>
+          </div>
+        </div>
+        <div class="Midle">
+          <div id="story">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div id="publishing">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="side">
+          <div id="rightSide">
+            <h2>Contacts</h2>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>James Bond</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Mickel Jordan</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>John Wick</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Jacky Chan</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Cristiano Ronaldo</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Leonel Messi</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Jet Li</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Hayk Marutyan</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Ruben Meschian</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Mkrtich Arzumanyan</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Andranik Ozanyan</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Elon Musk</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Hennry Ford</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Mike Tyson</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>Kobe Bryant</span>
+            </div>
+            <div class="contact">
+              <div class="photo"></div>
+              <span>LeBron James</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </main>
   </body>
 </html>
